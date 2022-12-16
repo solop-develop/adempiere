@@ -53,7 +53,7 @@ jobs:
       - name: Get Binary Application Apache Tomcat
         uses: wei/curl@v1
         with:
-          args: -L https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63-deployer.tar.gz > docker/adempiere/apache-tomcat.tar.gz
+          args: -L https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63.tar.gz
           
       # Login on DockerHub
       - name: Log in to Docker Hub
